@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="example" rel="styles/scss" type="text/css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo">Axel Piou</a>
+        </div>
+        
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <div class="nav__close" id="nav-close">
+                <i class='bx bx-x'></i>
+            </div>
+
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Portfolio</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main class="l-main">
+  <!--===== HOME =====-->
+  <section class="home" id="home">
+      <div class="home__container bd-grid">
+          <div class="home__img">
+              <img src="img/img6copie.png" alt="1" data-speed="-2" class="move">
+              <img src="img/img7copie.png" alt="2" data-speed="3" class="move">
+              <img src="img/img8copie.png" alt="3" data-speed="1" class="move">
+              <img src="img/img1copie.png" alt="4" data-speed="-4" class="move">
+              <img src="img/img2copie.png" alt="5" data-speed="4" class="move">
+              <img src="img/img3copie.png" alt="6" data-speed="2" class="move">
+              <img src="img/img4copie.png" alt="7" data-speed="-7" class="move">
+              <img src="img/img5copie.png" alt="8" data-speed="5" class="move">
+          </div>
+
+          <div class="home__data">
+              <h1 class="home__title">Welcome</h1>
+              <h2 class="subtitle">to my website</h2>
+              <p class="home__description">Discover my work and my experience <br> Let's work together !</p>
+              <a href="#" class="home__button">See more</a>
+          </div>
+      </div>
+  </section>
+</main>
+
+        <!--===== GSAP =====-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+
+</body>
+</html>
